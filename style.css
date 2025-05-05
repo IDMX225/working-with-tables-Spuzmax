@@ -1,3 +1,60 @@
-body {
-  background-color: aliceblue;
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+.tg-wrap {
+  position: relative;
+  z-index: ;
+}
+.tg-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;bottom: 0;
+  background-image: url(pix/SL-123119-26540-43.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+}
+.tg td {
+  border-color:red;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg th {
+  border-color:red;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg .tg-0lax {
+  text-align:left;
+  vertical-align:top;
+}
+.tg .tg-tf2e {
+  text-align:left;
+  vertical-align:top;
+}
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+  }
+  .tg col {
+    width: auto !important;
+  }
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
